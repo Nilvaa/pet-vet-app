@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PetParent.Pet_parent_buy_product">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mauve"
+        android:padding="10dp"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PURCHASE"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/paprika"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/pdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Product Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Product Price"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+    <EditText
+        android:id="@+id/qua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Quantity"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="10dp"
+        android:padding="20dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cons"
+        android:layout_weight="0.5"
+        android:elevation="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/paprika"
+            android:text="Billing Details"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/mauve"/>
+
+
+    <EditText
+        android:id="@+id/tot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Total Amount"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+
+        <EditText
+            android:id="@+id/accnam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext"
+            android:fontFamily="@font/paprika"
+            android:hint="Account Name"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/mauve"
+            android:textColorHint="@color/mauve" />
+    <EditText
+        android:id="@+id/acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Account Number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+
+        <EditText
+            android:id="@+id/car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext"
+            android:fontFamily="@font/paprika"
+            android:hint="Card Number Number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/mauve"
+            android:textColorHint="@color/mauve" />
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext"
+            android:fontFamily="@font/paprika"
+            android:hint="CVV"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/mauve"
+            android:textColorHint="@color/mauve" />
+        <EditText
+            android:id="@+id/exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext"
+            android:fontFamily="@font/paprika"
+            android:hint="Expiry Date"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/mauve"
+            android:textColorHint="@color/mauve" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnor"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/mauve"
+        android:fontFamily="@font/paprika"
+        android:padding="10dp"
+        android:text="ORDER"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+</ScrollView>

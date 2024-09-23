@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PetParent.Pet_parent_consult_doc">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mauve"
+        android:padding="10dp"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consult"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/paprika"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/iss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Issue"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Explaination"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/paprika"
+        android:hint="Started from"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="@color/mauve"
+        android:textColorHint="@color/mauve" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/add_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:src="@android:drawable/picture_frame"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/tableRow1"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cam"
+                android:layout_width="46dp"
+                android:layout_height="45dp"
+                android:background="@drawable/camera" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+
+            <ImageView
+                android:id="@+id/gal"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/gallery" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnapp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/mauve"
+        android:fontFamily="@font/paprika"
+        android:padding="10dp"
+        android:text="Send Request"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

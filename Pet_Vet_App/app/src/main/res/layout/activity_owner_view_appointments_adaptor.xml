@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adaptor.Owner_view_appointments_adaptor">
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/nam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="name:"></TextView>
+
+
+
+            <TextView
+                android:id="@+id/iss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="issue"></TextView>
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="date"></TextView>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="time"></TextView>
+
+            <Button
+                android:id="@+id/btnfeed"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/mauve"
+                android:fontFamily="@font/paprika"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Sent Feedback"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

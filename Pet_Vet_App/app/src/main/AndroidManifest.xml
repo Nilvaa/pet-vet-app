@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/peet"
+        android:label="PET VET"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/peet"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pet_vet"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".adaptor.Feedback_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Admin_view_feedback"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Photo_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_pic"
+            android:exported="false" />
+        <activity
+            android:name=".petnursery.Petnursery_sent_pic"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Nursery_req_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".petnursery.Pet_nursery_home"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_req_nursery"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_nursery"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Nursery_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".dog_walker.Dog_walker_notifictaion"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Dog_walker_request_adapotor"
+            android:exported="false" />
+        <activity
+            android:name=".dog_walker.Dog_walker_home"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_req_dog_walker"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Dog_walker_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_dog_walker"
+            android:exported="false" />
+        <activity
+            android:name=".petshop.Petshop_view_adopt_details"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Adoption_request_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".petshop.Petshop_view_order_details"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Product_order_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".petshop.Petshop_view_adoptions"
+            android:exported="false" />
+        <activity
+            android:name=".petshop.Pet_shop_view_orders"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_req_adoption"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Owner_view_adoption_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_buy_product"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_pdt_details"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Products_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_adoption"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_prdts"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Owner_view_shop_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_shop"
+            android:exported="false" />
+        <activity
+            android:name=".petshop.PetshopNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_petshop_nav"
+            android:theme="@style/Theme.Pet_vet.NoActionBar" />
+        <activity
+            android:name=".PetParent.Pet_parent_addfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Owner_view_appointments_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_appointment"
+            android:exported="false" />
+        <activity
+            android:name=".VeterinaryClinic.Vet_schedule_appointment"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Clinic_view_req_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_consult_doc"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Owner_view_doc_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Owner_view_clinic_adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_clinic"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_doc"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Pet_parent_view_cen"
+            android:exported="false" />
+        <activity
+            android:name=".PetParent.Petparent_home"
+            android:exported="false" />
+        <activity
+            android:name=".VeterinaryClinic.Vet_nav"
+            android:exported="false"
+            android:label="@string/title_activity_vet_nav"
+            android:theme="@style/Theme.Pet_vet.NoActionBar" />
+        <activity
+            android:name=".admin.Admin_view_owners"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Admin_dogwalker_Adaptor"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Admin_view_dogwalkers"
+            android:exported="false" />
+        <activity
+            android:name=".adaptor.Admin_view_centerAdaptor"
+            android:exported="false" />
+        <activity
+            android:name=".common.Petvet_model"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Admin_view_centers"
+            android:exported="false" />
+        <activity
+            android:name=".admin.Admin_home"
+            android:exported="false" />
+        <activity
+            android:name=".dog_walker.Dog_walker_reg"
+            android:exported="false" />
+        <activity
+            android:name=".Options"
+            android:exported="false" />
+        <activity
+            android:name=".Center_reg"
+            android:exported="true" />
+        <activity
+            android:name=".PetParent.PetParent_reg"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

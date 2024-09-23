@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adaptor.Owner_view_adoption_adaptor">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgei"
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                android:padding="5dp"
+                android:scaleType="fitXY" />
+            <TextView
+                android:id="@+id/gen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="gender:"></TextView>
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="age"></TextView>
+            <TextView
+                android:id="@+id/bre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="breed:"></TextView>
+
+
+            <TextView
+                android:id="@+id/siz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="size"></TextView>
+            <TextView
+                android:id="@+id/heal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="health"></TextView>
+            <TextView
+                android:id="@+id/fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/paprika"
+                android:textColor="@color/mauve"
+                android:text="fees"></TextView>
+
+            <Button
+                android:id="@+id/btnreq"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/mauve"
+                android:fontFamily="@font/paprika"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Request Adoption"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

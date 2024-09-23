@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PetParent.Pet_parent_view_cen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mauve"
+        android:padding="10dp"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centers"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+            android:textColor="@color/white"
+            android:fontFamily="@font/paprika"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp"
+            android:id="@+id/cen"
+            app:cardCornerRadius="20dp"
+            android:layout_weight="0.5"
+            android:elevation="10dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_marginBottom="290dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/vetcl"
+                app:lottie_loop="true" app:lottie_speed="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/mauve"
+                android:textSize="13dp"
+                android:text="VETERINARY CLINIC"></TextView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/shop"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_weight="0.5"
+            android:elevation="10dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_marginBottom="290dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/prtshp"
+                app:lottie_loop="true" app:lottie_speed="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/mauve"
+                android:textSize="13dp"
+                android:text="PET SHOP"></TextView>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/nur"
+            android:layout_margin="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_weight="0.5"
+            android:elevation="10dp">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_marginBottom="290dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/splash"
+                app:lottie_loop="true" app:lottie_speed="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/mauve"
+                android:textSize="13dp"
+                android:text="PET NURSERY"></TextView>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
